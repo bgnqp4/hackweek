@@ -1,0 +1,90 @@
+.container { 
+	position:relative;
+    background-color: #f2f2f2;  
+    min-height: 500px;
+}
+
+h1 {
+	margin: 20px;
+	text-align: center;
+	color: blue;
+}
+
+.title {
+	background-color: white;
+}
+.bottom_row {
+    position:relative;
+    bottom: 20px;
+}
+
+button {
+	width: 100%;
+}
+
+.game_board {
+	width:100%;
+}
+
+.game_buttons {
+	margin: 20px auto;
+}
+
+.red, .blue, .yellow, .green {
+	-webkit-border-radius: 150px 150px 150px 150px;
+	border-radius: 150px 150px 150px 150px;
+	position: absolute;
+	height: 300px;
+}
+
+.red {
+	background: #ff9999;
+	clip: rect(0px, 300px, 150px, 150px);
+	width: 300px;
+}
+
+.blue {
+	background: #b3d9ff;
+	clip: rect(0px, 150px, 150px, 0px);
+	width: 300px;
+}
+
+.yellow {
+	background: #ffffcc;
+	clip: rect(150px, 150px, 300px, 0px);
+	width: 300px;
+}
+
+.green {
+	background: #70db70;
+	clip: rect(150px,300px, 300px, 150px);
+	width: 300px;
+}
+
+.game-info {
+	margin-top: 90px;
+}
+
+.game_buttons {
+	height: 350px;
+}
+
+.blue_on {
+	background: #0000ff;
+}
+
+.red_on {
+	background: #ff3300;
+}
+
+.green_on {
+	background: #33cc33;
+}
+
+.yellow_on {
+	background: #ffff1a;
+}
+
+.red:hover, .blue:hover, .yellow:hover, .green:hover {
+	border: 1px solid black
+}
